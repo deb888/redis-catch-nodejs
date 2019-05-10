@@ -19,11 +19,13 @@ or
 redis-server /usr/local/etc/redis.conf
 
 
+
 for uninstall
 $ brew uninstall redis
 $ rm ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
-
+for stop 
+redis-cli shutdown
 
 
 
